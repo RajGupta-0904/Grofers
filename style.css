@@ -1,0 +1,271 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /* color: white; */
+    user-select: none;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    padding: 5px 50px;
+    flex-wrap: wrap;
+    z-index: 10;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+nav li{
+    padding: 10px ;
+    font-size: 18px;
+    color: black;
+}
+nav li:hover{
+    color:orange;
+}
+a{
+    text-decoration: none;
+}
+i{
+    color: #29d9d5;
+    font-size: 32px;
+    padding: 5px;
+}
+.ft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.ftt:hover{
+    color: orange;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #29d9d5;
+    border: 2px solid #29d9d5;
+    border-radius: 20px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    text-shadow: 0px 0px 3px cadetblue;
+    flex-wrap: wrap;
+}
+.bech {
+    height: 300px;
+    position: relative;
+    
+    background-image: url(banner-bg.webp);
+  }
+  
+  .bech1{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+.btn
+{
+    padding: 6px 20px;
+    border: 2px  solid white;
+    background-color: brown;
+    color: white;
+    margin: 18px;
+    font-size: 1.3rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#services
+{
+    margin: 35px;
+    display: flex;
+
+}
+#services .box
+{
+    border: 2px solid brown;
+    padding: 34px;
+    margin: 4px 6px;
+    border-radius: 25px;
+}
+#services .box img
+{
+ 
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+#services .box p
+{
+  text-align: center;
+}
+.primary
+{
+    font-size: 2.8rem;
+    padding: 13px;
+}
+.center
+{
+    text-align: center;
+}
+.footer{
+    background: #fff;
+}
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:1.5rem;
+}
+
+.footer .box-container .box h3{
+    font-size: 2.5rem;
+    color:var(--black);
+    padding:1rem 0;
+}
+
+.footer .box-container .box h3 i{
+    color:var(--orange);
+}
+
+.footer .box-container .box .links{
+    display: block;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box .links i{
+    color:var(--orange);
+    padding-right: .5rem;
+}
+
+.footer .box-container .box .links:hover i{
+    padding-right: 2rem;
+}
+
+
+.footer .box-container .box p{
+    line-height: 1.8;
+    font-size: 1.5rem;
+    color:var(--light-color);
+    padding:1rem 0;
+}
+
+.footer .box-container .box .share a{
+    height:4rem;
+    width:4rem;
+    line-height:4rem;
+    border-radius: .5rem;
+    font-size: 2rem;
+    color:var(--black);
+    margin-right: .2rem;
+    background: #eee;
+    text-align: center;
+}
+
+.footer .box-container .box .share a:hover{
+    background: var(--orange);
+    color: #fff;
+}
+
+.footer .box-container .box .email{
+    width: 100%;
+    margin:.7rem 0;
+    padding:1rem;
+    border-radius: .5rem;
+    background: #eee;
+    font-size: 1.6rem;
+    color:var(--black);
+    text-transform: none;
+}
+
+.footer .box-container .box .payment-img{
+    margin-top: 2rem;
+    height: 3rem;
+    display: block;
+}
+
+.footer .credit{
+    text-align: center;
+    margin-top: 2rem;
+    padding:1rem;
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color:var(--black);
+    border-top: var(--border);
+}
+
+.footer .credit span{
+    color:var(--orange);
+}
+.review .review-slider{
+    padding:1rem;
+}
+
+.review .review-slider .box{
+    background: #fff;
+    border-radius: .5rem;
+    text-align: center;
+    padding:3rem 2rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+
+.review .review-slider .box:hover{
+    outline:var(--outline-hover);
+    outline-offset: 0rem;
+}
+
+.review .review-slider .box img{
+    height:10rem;
+    width:10rem;
+    border-radius: 50%;
+}
+
+.review .review-slider .box p{
+    padding:1rem 0;
+    line-height: 1.8;
+    color:var(--light-color);
+    font-size: 1.5rem;
+}
+
+.review .review-slider .box h3{
+    padding-bottom: .5rem;
+    color:var(--black);
+    font-size: 2.2rem;
+}
+
+.review .review-slider .box .stars i{
+    color:var(--orange);
+    font-size: 1.7rem;
+}
+.heading{
+    text-align: center;
+}
+
